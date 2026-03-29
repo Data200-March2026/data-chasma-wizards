@@ -7,8 +7,9 @@
 
 ### Team Members
 1. *Dinesh Karki (DineshKarki10)*
-2. *Kushal Thapa (GitHub Username)*
-3. *Member 3 Name (GitHub Username)*
+2. *Kushal Thapa (Ku-shal9)*
+3. *Sanskar Dhakal (Sanskar-Dhakal)*
+4. *Muhammad Sharif Miya ()*
 
 ### Task Division
 - **Member 1**: *Describe tasks assigned (e.g., data analysis and EDA)*
