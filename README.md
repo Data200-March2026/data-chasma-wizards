@@ -1,89 +1,80 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/Oz3VlXJ8)
-# Data 200 Applied Statistical Analysis  
-## Project Work  
-**“Exploring Real-World Data through Statistical and Predictive Modeling”**
+# Data 200 Applied Statistical Analysis
 
----
+## Project Weekly Progress
 
-### Objective:  
-Students will apply statistical and predictive modeling techniques to analyze a real-world dataset relevant to their areas of interest (e.g., Healthcare, Marketing, Sports, Finance, Education, etc.). The project will focus on:  
-- Cleaning and structuring data.  
-- Applying statistical analysis techniques such as Linear Regression, ANOVA, or Logistic Regression.  
-- Developing a simple end-to-end application.  
-- Generating a comprehensive report to document choices, insights, and conclusions.  
+## Application Link
 
----
+- Streamlit App: [https://chasmawizards9lungcancer.streamlit.app/](https://chasmawizards9lungcancer.streamlit.app/)
 
-### Deliverables and Deadlines  
+### Week 1: Group Formation and Topic Finalization
 
-#### **Week 1: Group Formation and Topic Finalization**  
-- Form project groups.
-- Finalize the project topic.
-- Identify the problem statement.  
+- Formed project group and assigned member responsibilities.
+- Finalized project domain and selected lung cancer prediction as the focus area.
+- Defined the core problem statement and expected project outcome.
+- Prepared and delivered idea presentation for faculty review.
+- Deliverable: idea presentation.
 
-**Deliverables:**  
-- Idea presentation.  
+### Week 2: Literature Review and Dataset Selection
 
-#### **Week 2: Literature Review and Dataset Selection**  
-- Conduct a literature review to establish context and relevance.  
-- Select a suitable dataset.  
+- Reviewed related research papers and prior predictive modeling approaches.
+- Compared methods used in similar studies for feature usage and model choices.
+- Identified publicly available dataset suitable for the project objective.
+- Checked dataset structure, column definitions, and overall data usability.
+- Deliverable: minimum 3 related literature reviews.
 
-**Deliverables:**  
-- Submit at least 3 literature reviews of related works.  
+### Week 3: Exploratory Data Analysis (EDA)
 
-#### **Week 3: Exploratory Data Analysis (EDA)**  
-- Perform EDA using descriptive statistics and visualizations to understand data patterns and relationships.  
-- Preprocess the data: Handle missing values, outliers, and duplicates, and perform other data wrangling techniques.  
-- Check relationships in data
+- Notebook: `Week3/eda.ipynb`
+- Imported dataset and performed initial data understanding (shape, data types, summary statistics).
+- Visualized distributions and class behavior using plots for numerical and categorical features.
+- Checked missing values, duplicate records, and potential outliers.
+- Performed preprocessing steps needed for reliable analysis.
+- Explored relationships among variables and target outcome.
+- Deliverable: EDA summary with key visual insights.
 
-**Deliverables:**  
-- EDA summary with key insights supported by visualizations (e.g., scatter plots, histograms, box plots).  
+### Week 4: Statistical Model Selection and Hypothesis Development
 
-#### **Week 4: Statistical Model Selection and Hypothesis Development**  
-- Select appropriate statistical techniques (e.g., Regression, ANOVA, Logistic Regression) based on the problem statement.  
-- Perform feature selection and develop hypotheses.  
+- Notebook: `Week 4/feature.ipynb`
+- Performed feature-level analysis to identify relevant predictors.
+- Evaluated feature importance and removed low-value or redundant inputs.
+- Established candidate modeling direction based on data behavior.
+- Developed statistical hypotheses aligned with project objectives.
+- Documented justification for selected features and model path.
+- Deliverable: model/feature justification deck.
 
-**Deliverables:**  
-- A short slide deck with justification of model and feature choices.  
+### Week 5: Statistical Analysis and Validation
 
-#### **Week 5: Statistical Analysis and Validation**  
-- Conduct descriptive and inferential statistical analysis tests using Python.  
-- Perform diagnostics measures
-- Interpret results and validate hypotheses.  
-- If necessary, choose sampling methods or collect additional data (e.g., through questionnaires or Google Forms).  
+- Notebook: `Week 5/hypothesis.ipynb`
+- Conducted statistical tests to validate assumptions and hypotheses.
+- Performed inferential analysis to confirm significant relationships.
+- Executed diagnostics to ensure analysis validity.
+- Interpreted each test result with respect to the original hypotheses.
+- Recorded conclusions from statistical evidence for final modeling stage.
+- Deliverable: statistical analysis results.
 
----
-#### **Week 6: Statistical Modeling (Continued…)**  
-- Build on the analysis from Week 5.  
-- Finalize insights and begin compiling the project report.  
+### Week 6: Statistical Modeling (Continued)
 
-**Deliverables:**  
-- Present statistical analysis results and insights.  
-- Also, present the report draft for progress tracking.  
+- Notebook: `Week 6/model.ipynb`
+- Built prediction model using selected features from prior analysis.
+- Trained and evaluated model performance with suitable metrics.
+- Refined modeling workflow based on validation outcomes.
+- Compared results with hypothesis findings for consistency.
+- Consolidated outputs and insights for report drafting.
+- Deliverable: modeling results and report progress.
 
-#### **Week 7: Application Development**  
-- Simple Python Application Creation for project demonstration using libraries of student’s choice.  
+### Week 7: Application Development
 
-**Deliverables:**  
-- Locally running Python application.  
+- Designed and implemented a simple Streamlit-based project application.
+- Integrated model inference flow into the app for user interaction.
+- Added input fields and output display for prediction demonstration.
+- Performed local testing and deployment setup for online access.
+- App Link: [https://chasmawizards9lungcancer.streamlit.app/](https://chasmawizards9lungcancer.streamlit.app/)
+- Deliverable: locally running application.
 
-#### **Week 8: Peer Evaluation and Final Presentation**  
-- Conduct peer evaluations (review at least two projects).  
-- Prepare and present findings in a 10-minute presentation.  
-- Submit the final report with documentation.  
+### Week 8: Peer Evaluation and Final Presentation
 
-**Deliverables:**  
-- Final report with detailed documentation.  
-- Presentation slides.  
-- Peer evaluation feedback.  
-
----
-
-### Evaluation Criteria  
-- **Dataset and Problem Definition (10%)**  
-- **Exploratory Data Analysis and Preprocessing (20%)**  
-- **Statistical Modeling and Validation (40%)**  
-- **Python Application Development (10%)**  
-- **Presentation and Collaboration (20%)**
-
----
+- Finalized complete project report with methodology and results.
+- Prepared presentation slides covering weekly progress and key findings.
+- Conducted peer evaluation and incorporated relevant feedback.
+- Delivered final project presentation and demonstration.
+- Deliverable: report, slides, and peer feedback.
